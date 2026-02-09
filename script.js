@@ -8,7 +8,7 @@ function selectOption(option) {
 
       const loveText = document.getElementById('love-text');
       loveText.style.display = 'block';
-      loveText.style.animation = 'lovePop 0.6s ease-out';
+      loveText.style.animation = 'lovePop 0.6s ease-out forwards';
 
       displayCatHeart();
     });
@@ -80,4 +80,5 @@ function displayCatHeart() {
 }
 
 // Display the cat.gif initially
+
 displayCat();
